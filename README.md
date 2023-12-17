@@ -13,7 +13,61 @@ The Customer Management System (CMS) is a comprehensive project designed to faci
 - **Unit Tests:** The project maintains a minimum of 60% unit test coverage to ensure the reliability and stability of the codebase.
 
 - **Real-World Scenario:** The CMS project is designed around a real-world scenario, mimicking a customer database where businesses can add, view, update, and remove customer records.
-  
+
+## Use Cases
+
+## 1. Add Customer
+
+### Objective
+Allow businesses to add new customer records to the system.
+
+### Steps
+1. The business sends a POST request to the `/customer` endpoint with the necessary customer details.
+2. The CMS validates the incoming data and inserts the new customer record into the database.
+3. A success response is returned to the business, confirming the addition of the customer.
+
+---
+
+## 2. View Customer List
+
+### Objective
+Enable businesses to retrieve a list of all existing customers.
+
+### Steps
+1. The business sends a GET request to the `/customer` endpoint.
+2. The CMS queries the database for the list of customers.
+3. The list of customers is returned to the business as a JSON response.
+
+---
+
+## 3. Update Customer Details
+
+### Objective
+Allow businesses to update the details of an existing customer.
+
+### Steps
+1. The business sends a PUT request to the `/customer/{id}` endpoint, specifying the customer ID to be updated.
+2. The CMS retrieves the existing customer details from the database.
+3. The system updates the customer information based on the provided data.
+4. A success response is returned to the business, confirming the update.
+
+---
+
+## 4. Remove Customer
+
+### Objective
+Enable businesses to remove a customer record from the system.
+
+### Steps
+1. The business sends a DELETE request to the `/customer/{id}` endpoint, specifying the customer ID to be removed.
+2. The CMS checks if the customer exists in the database.
+3. If the customer is found, the system deletes the customer record.
+4. A success response is returned to the business, confirming the removal of the customer.
+
+---
+
+These use cases provide a comprehensive overview of the essential operations supported by the Customer Management System (CMS). Businesses can seamlessly interact with the system to manage customer data efficiently.
+
 ## Getting Started
 
 To get started with the Customer Management System, follow these steps:
