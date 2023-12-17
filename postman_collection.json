@@ -9,7 +9,7 @@
 		{
 			"name": "Create",
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": []
 			},
 			"response": []
@@ -17,7 +17,7 @@
 		{
 			"name": "create",
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": []
 			},
 			"response": []
@@ -33,7 +33,7 @@
 		{
 			"name": "update",
 			"request": {
-				"method": "GET",
+				"method": "PUT",
 				"header": []
 			},
 			"response": []
@@ -41,7 +41,7 @@
 		{
 			"name": "delete",
 			"request": {
-				"method": "GET",
+				"method": "DELETE",
 				"header": []
 			},
 			"response": []
