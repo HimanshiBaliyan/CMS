@@ -1,4 +1,4 @@
-# Customer Management System (CMS) Project Report
+# Customer Management System (CMS) Project
 
 ## Overview
 
